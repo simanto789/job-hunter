@@ -2,13 +2,13 @@
     {
       "id": 1,
       "logo": "/public/images/accounted.png",
-      "name": "accounts",
+      "name": "accounts job",
       "jobs_available": 10
     },
     {
       "id": 2,
       "logo": "/public/images/designer.png",
-      "name": "Designer",
+      "name": "Designer job",
       "jobs_available": 5
     },
     {
@@ -20,7 +20,7 @@
     {
       "id": 4,
       "logo": "/public/images/hrmanager.png",
-      "name": "HR Manager",
+      "name": "HR Manager job",
       "jobs_available": 15
     }
   ]
