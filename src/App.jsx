@@ -7,7 +7,6 @@ const App = () => {
   <div>
     {/* header */}
     <Header/>
-    <h1>startung page</h1>
     <Outlet/>
     {/* footer */}
   </div>

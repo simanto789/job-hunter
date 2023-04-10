@@ -22,7 +22,7 @@ const Header = () => {
           <li>
             <NavLink
               to='/statistic'
-              className={({ isActive }) => (isActive ? 'active' : 'default')}
+              className={({ isActive }) => (isActive ? 'text-blue-700 font-bold' : 'default')}
             >
               Statistic
             </NavLink>
@@ -30,7 +30,7 @@ const Header = () => {
           <li>
             <NavLink
               to='/apply'
-              className={({ isActive }) => (isActive ? 'active' : 'default')}
+              className={({ isActive }) => (isActive ? 'text-blue-700 font-bold' : 'default')}
             >
               Apply job
             </NavLink>
@@ -38,7 +38,7 @@ const Header = () => {
           <li>
             <NavLink
               to='/blog'
-              className={({ isActive }) => (isActive ? 'active' : 'default')}
+              className={({ isActive }) => (isActive ? 'text-blue-700 font-bold' : 'default')}
             >
               Blog
             </NavLink>
@@ -46,7 +46,7 @@ const Header = () => {
           
         </ul>
         <Link to='/' className='inline-flex items-center'>
-          <button className='bg-blue-500 hover:bg-blue-700 text-white font-medium p-2 rounded'>
+          <button className='btn'>
             Start Applying
           </button>
         </Link>
