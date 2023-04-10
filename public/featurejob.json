@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "company_logo": "https://example.com/logo.png",
+      "job_title": "Software Engineer",
+      "company_name": "Example Company",
+      "remote_or_onsite": "Remote",
+      "location": "Any",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$100,000 - $120,000",
+      "job_description": "We are looking for a skilled software engineer to join our team and help us build great products.",
+      "job_responsibility": "Write high-quality, clean, maintainable code",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in software development",
+        "phone": "123-456-7890",
+        "email": "jobs@example.com"
+    },
+    {
+      "id": 2,
+      "company_logo": "https://example.com/logo.png",
+      "job_title": "Product Manager",
+      "company_name": "Example Company",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$120,000 - $140,000",
+      "job_description": "We are seeking a talented product manager to help us build innovative products and drive growth.",
+      "job_responsibility": "Develop product strategy and roadmap",
+      "educational_requirements": "Bachelor's degree in Business or related field",
+      "experiences": "5+ years of experience in product management",
+        "phone": "123-456-7890",
+        "email": "jobs@example.com"
+      
+    },
+    {
+      "id": 3,
+      "company_logo": "https://example.com/logo.png",
+      "job_title": "Data Analyst",
+      "company_name": "Example Company",
+      "remote_or_onsite": "Remote",
+      "location": "Any",
+      "fulltime_or_parttime": "Part-time",
+      "salary": "$40 - $50/hour",
+      "job_description": "We are looking for a data analyst to help us analyze and interpret large data sets.",
+      "job_responsibility": "Analyze and interpret data to identify trends and insights",
+      "educational_requirements": "Bachelor's degree in Statistics, Mathematics or related field",
+      "experiences": "2+ years of experience in data analysis",
+        "phone": "123-456-7890",
+        "email": "jobs@example.com"
+      
+    },
+    {
+      "id": 4,
+      "company_logo": "https://example.com/logo.png",
+      "job_title": "Marketing Manager",
+      "company_name": "Example Company",
+      "remote_or_onsite": "Onsite",
+      "location": "New York, NY",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$100,000 - $120,000",
+      "job_description": "We are looking for a talented marketing manager to help us drive growth and increase brand awareness.",
+      "job_responsibility": "Develop and execute marketing campaigns",
+      "educational_requirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "5+ years of experience in marketing",
+        "phone": "123-456-7890",
+        "email": "jobs@example.com"
+    },
+    {
+      "id": 5,
+      "company_logo": "https://example.com/logo.png",
+      "job_title": "Graphic Designer",
+      "company_name": "Example Company",
+      "remote_or_onsite": "Onsite",
+      "location": "Chicago, IL",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$60,000 - $80,000",
+      "job_description": "We are seeking a creative and talented graphic designer to help us design visual content for our products.",
+      "job_responsibility": "Design and produce visual content, including illustrations, logos, and graphics",
+      "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+      "experiences": "3+ years of experience in graphic design",
+
+        "phone": "123-456-7890",
+        "email": "jobs@example.com"
+    },
+    {
+      "id": 6,
+      "company_logo": "https://example.com/logo.png",
+      "job_title": "Sales Representative",
+      "company_name": "Example Company",
+      "remote_or_onsite": "Onsite",
+      "location": "Boston, MA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "job_description": "We are looking for an experienced sales representative to help us grow our business and increase revenue.",
+      "job_responsibility": "Develop and maintain relationships with clients",
+      "educational_requirements": "Bachelor's degree in Business or related field",
+      "experiences": "3+ years of experience in sales",
+        "phone": "123-456-7890",
+        "email": "jobs@example.com"
+    }
+    ]
+    
