@@ -59,6 +59,16 @@ const Home = () => {
            }
         </div>
     </div>
+    {/* feature job list */}
+    <div className='my-container'>
+        <div>
+           <h1 className='text-center text-4xl font-bold mb-3'>Featured <span className='inline-block text-yellow-600'>Jobs</span></h1>
+           <p className='text-center text-xl mt-2 mb-10 text-gray-700'>Explore many more of job opportunities with all the information you need. Its your future</p>
+        </div>
+        <div>
+
+        </div>
+    </div>
 
    </>
   )
