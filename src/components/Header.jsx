@@ -45,11 +45,11 @@ const Header = () => {
           </li>
           
         </ul>
-        <Link to='/' className='inline-flex items-center'>
+        <NavLink to='/ErrorPage' className={({ isActive }) => (isActive ? 'text-yellow-600 font-bold' : 'default')}>
           <button className='btn'>
             Start Applying
           </button>
-        </Link>
+        </NavLink>
         {/* Mobile Navbar Section */}
         <div className='lg:hidden'>
           {/* Dropdown Open Button */}
@@ -63,7 +63,7 @@ const Header = () => {
           {isMenuOpen && (
             <div className='absolute top-0 left-0 w-full z-10'>
               <div className='p-5 bg-white border rounded shadow-sm'>
-                {/* Logo & Button section */}
+                {/* Button section */}
                 <div className='flex items-center justify-between mb-4'>
                   <div>
                     <Link to='/' className='inline-flex items-center'>
@@ -88,14 +88,14 @@ const Header = () => {
                   <ul className='space-y-4'>
                     <li>
                       <Link to='/statistic' 
-                      className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'>
+                      className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-yellow-800'>
                       statistic
                       </Link>
                     </li>
                     <li>
                       <Link
                         to='/apply'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-yellow-800'
                       >
                         apply
                       </Link>
@@ -103,7 +103,7 @@ const Header = () => {
                     <li>
                       <Link
                         to='/blog'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-yellow-800'
                       >
                          Blog
                       </Link>
