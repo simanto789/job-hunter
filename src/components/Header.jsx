@@ -12,7 +12,7 @@ const Header = () => {
       <div className='relative flex items-center justify-between'>
         {/* Logo Section */}
         <Link to='/' className='inline-flex items-center'>
-          <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
+          <span className='ml-2 text-3xl font-bold tracking-wide text-yellow-600'>
             Job Hunter
           </span>
         </Link>
@@ -22,7 +22,7 @@ const Header = () => {
           <li>
             <NavLink
               to='/statistic'
-              className={({ isActive }) => (isActive ? 'text-blue-700 font-bold' : 'default')}
+              className={({ isActive }) => (isActive ? 'text-yellow-600 font-bold' : 'default')}
             >
               Statistic
             </NavLink>
@@ -30,7 +30,7 @@ const Header = () => {
           <li>
             <NavLink
               to='/apply'
-              className={({ isActive }) => (isActive ? 'text-blue-700 font-bold' : 'default')}
+              className={({ isActive }) => (isActive ? 'text-yellow-600 font-bold' : 'default')}
             >
               Apply job
             </NavLink>
@@ -38,7 +38,7 @@ const Header = () => {
           <li>
             <NavLink
               to='/blog'
-              className={({ isActive }) => (isActive ? 'text-blue-700 font-bold' : 'default')}
+              className={({ isActive }) => (isActive ? 'text-yellow-600 font-bold' : 'default')}
             >
               Blog
             </NavLink>

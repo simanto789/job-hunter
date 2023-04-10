@@ -8,5 +8,5 @@
 }
 
 .btn{
-  @apply items-center  p-2 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-blue-400 hover:bg-blue-700
+  @apply items-center  p-2 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-yellow-600 hover:bg-amber-800
 }

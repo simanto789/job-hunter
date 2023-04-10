@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "logo": "/public/images/accounted.png",
+      "name": "accounts",
+      "jobs_available": 10
+    },
+    {
+      "id": 2,
+      "logo": "/public/images/designer.png",
+      "name": "Designer",
+      "jobs_available": 5
+    },
+    {
+      "id": 3,
+      "logo": "/public/images/engineering.png",
+      "name": "Engineering job",
+      "jobs_available": 20
+    },
+    {
+      "id": 4,
+      "logo": "/public/images/hrmanager.png",
+      "name": "HR Manager",
+      "jobs_available": 15
+    }
+  ]

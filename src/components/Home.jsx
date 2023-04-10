@@ -11,7 +11,7 @@ const Home = () => {
         <div className='max-w-xl mb-6 lg:mt-2'>
           <h2 className='max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
           One Step  <br className='hidden md:block' /> Closer To Your <br />
-            <span className='inline-block text-blue-400'>Dream Job</span>
+            <span className='inline-block text-yellow-600'>Dream Job</span>
           </h2>
           <p className='text-base text-gray-700 md:text-lg'>
           Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.
