@@ -6,7 +6,11 @@ import Feature from './Feature'
 import Category from './Category'
 
 const Home = () => {
-    const [categoryjob, setCategoryjob] = useState([])
+    const [showall, setShowall] = useState(false);
+    const [categoryjob, setCategoryjob] = useState([]);
+    const handleshowall = () => {
+      setShowall(true);
+    }
     useEffect(()=>{
         fetch("categoryjob.json")
         .then(res=>res.json())
@@ -65,11 +69,13 @@ console.log(featurejobs)
            <p className='text-center text-xl mt-2 mb-10 text-gray-700'>Explore many more of job opportunities with all the information you need. Its your future</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 my-5 mb-5 '>
-          { featurejobs.map(feature => (
+          { featurejobs.slice(0, showall ? 6 : 4).map(feature => (
               <Feature key = {feature.id} feature = {feature} />
             ))
            }
+           
         </div>
+        <p onClick={handleshowall} className='text-center'><button className='btn'>See All Jobs</button></p>
     </div>
 
    </>
