@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Lottie from 'lottie-react'
 import banner from '../assets/banner.json'
-import { Link } from 'react-router-dom'
+import { Link, useLoaderData } from 'react-router-dom'
+import Feature from './Feature'
+import Category from './Category'
 
 const Home = () => {
     const [categoryjob, setCategoryjob] = useState([])
@@ -11,7 +13,8 @@ const Home = () => {
         .then(data=>setCategoryjob(data))
     },[])
 
-
+const featurejobs = useLoaderData ()
+console.log(featurejobs)
 
   return (
    <>
@@ -50,11 +53,7 @@ const Home = () => {
         <div className='grid grid-cols-1 lg:grid-cols-4 gap-8 my-5 mb-5 '>
            {
             categoryjob.map((category) =>(
-                <div className='border border-gray-400 rounded-lg p-4 bg-orange-100'> 
-                    <img src={category.logo} alt="" />
-                    <p className='font-medium mt-2 mb-2'>{category.name}</p>
-                    <p>{category.jobs_available}+ available job</p>
-                </div>
+                <Category key = {category.id} category = {category} />
             ))
            }
         </div>
@@ -65,8 +64,11 @@ const Home = () => {
            <h1 className='text-center text-4xl font-bold mb-3'>Featured <span className='inline-block text-yellow-600'>Jobs</span></h1>
            <p className='text-center text-xl mt-2 mb-10 text-gray-700'>Explore many more of job opportunities with all the information you need. Its your future</p>
         </div>
-        <div>
-
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 my-5 mb-5 '>
+          { featurejobs.map(feature => (
+              <Feature key = {feature.id} feature = {feature} />
+            ))
+           }
         </div>
     </div>
 
