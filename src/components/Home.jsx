@@ -69,7 +69,7 @@ console.log(featurejobs)
            <p className='text-center text-xl mt-2 mb-10 text-gray-700'>Explore many more of job opportunities with all the information you need. Its your future</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 my-5 mb-5 '>
-          { featurejobs.slice(0, showall ? 6 : 4).map(feature => (
+          {featurejobs.slice(0, showall ? 6 : 4).map(feature => (
               <Feature key = {feature.id} feature = {feature} />
             ))
            }

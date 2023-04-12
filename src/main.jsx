@@ -8,6 +8,7 @@ import Blog from './components/Blog'
 import Statistics from './components/Statistics'
 import Apply from './components/Apply'
 import ErrorPage from './components/Errorpage'
+import ViewDetails from './components/ViewDetails'
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,12 @@ const router = createBrowserRouter([
       path: '/',
       element: <Home/>,
       loader: ()=> fetch('featurejob.json'),
-      },
+      },          
+      {
+      path: '/job/:id',
+      element: <ViewDetails/>,
+      
+      },          
       {
       path: 'statistic',
       element: <Statistics/>,

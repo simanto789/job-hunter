@@ -1,26 +1,26 @@
 [
     {
       "id": 1,
-      "logo": "/public/images/accounted.png",
+      "logo": "https://i.ibb.co/f0J1V5v/accounted.png",
       "name": "accounts job",
-      "jobs_available": 10
+      "jobs_available": 30
     },
     {
       "id": 2,
-      "logo": "/public/images/designer.png",
+      "logo": "https://i.ibb.co/ryFF34L/designer.png",
       "name": "Designer job",
-      "jobs_available": 5
+      "jobs_available": 80
     },
     {
       "id": 3,
-      "logo": "/public/images/engineering.png",
+      "logo": "https://i.ibb.co/q1F9m9f/engineering.png" ,
       "name": "Engineering job",
       "jobs_available": 20
     },
     {
       "id": 4,
-      "logo": "/public/images/hrmanager.png",
+      "logo": "https://i.ibb.co/mvFm8mf/hrmanager.png",
       "name": "HR Manager job",
-      "jobs_available": 15
+      "jobs_available": 45
     }
   ]

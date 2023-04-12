@@ -14,7 +14,7 @@ Here have job category list and also featured jobs. In job category list,here ha
 
 ## Live Link
 
-Hosted in Netlify -> [HeroGadget](https://herogadget.netlify.app/)
+Hosted in Netlify -> [JobHunt](https://wonderful-shortbread-06d83e.netlify.app/)
 
 
 
